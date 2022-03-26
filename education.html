@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Neo-Humanist Education</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">  
+  <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Candal&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="head.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+#e  {
+overflow:hidden;
+}
+
+#e img {
+transition:transform 3s;
+}
+
+#e:hover img {
+transform: scale(1.5, 1.5);
+}
+
+ul li {
+list-style:none;
+}
+
+ul li {
+font-size:18px;
+}
+
+.nhe {
+display:inline-block;
+border:1px solid;
+border-radius:50px;
+background:#6495ED;
+color:white;
+
+}
+
+ul li {
+list-style:none;
+}
+
+h4#ed1, h4#ed2, h4#ed3, h4#ed4, h4#ed5{
+cursor:pointer;
+}
+
+p#a1, p#a2, p#a3, p#a4, p#a5{
+display:none;
+}
+
+.glyphicon{
+margin-right:10px;
+}
+.row{
+	display: flex;
+	flex-direction: column;
+}
+.col1{
+	flex: 1;
+	border: 1px solid gray;
+	margin: 20px 0px;
+	margin-right: 5px;
+	padding: 5px;
+}
+.col2{
+	flex: 1;
+}
+.col3{
+	flex: 1;
+	margin-left: 30px;	
+}
+.col4{
+	flex: 1;
+	background: lightblue;
+	padding: 50px;
+	text-align: center;		
+}
+.col5{
+	flex: 4;
+		
+}
+ #t3{
+	background: lightgray;		
+}
+.col2 p{
+	padding: 0 20px;
+	margin-top: 20px;	
+}
+/* accordian */
+.nhe-text{   
+			width: 80%;
+			max-width: 700px;
+			margin: 50px auto;		
+		}
+
+		button.accordion{   
+			width: 100%;
+			background-color: whitesmoke;
+			border: none;
+			outline: none;
+			padding: 15px 20px;
+			font-size: 18px;
+			text-align: left;
+			transition: background-color 0.2s linear;
+			cursor: pointer;
+			margin-top: 2px;		
+		}
+		
+		button.accordion:hover, button.accordion.is-open{ 			
+			background-color: #ddd;				
+		}
+
+		button.accordion::after{ 			
+			content:'\f055';
+			font-family: "fontawesome";
+			font-size: 16px;
+			float: right;				
+		}
+
+		button.accordion.is-open::after{ 			
+			content:'\f056';
+			font-family: "fontawesome";
+			font-size: 16px;
+			float: right;				
+		}
+
+		.accordion-content{ 			
+			padding: 0px 20px;
+			border-right: 1px solid whitesmoke;	
+			border-left: 1px solid whitesmoke;
+			max-height: 0;
+			overflow: hidden;
+			transition: max-height 0.2s ease-in-out;
+			text-align: justify;
+						
+		}				
+@media(min-width: 640px){
+	.row{
+	display: flex;
+	flex-direction: row;
+}
+
+}
+</style>
+  
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script
+	src="https://code.jquery.com/jquery-3.4.1.js"
+	integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+	crossorigin="anonymous"></script> 
+</head>
+
+<body>
+		<div class="container-fluid bg-info">
+				<div class="container">
+					<div class="row-head d-flex">
+					<div class="col "><h5 class="text-danger text-logo">NEO<span class="text-white">HUMANISM</span></h5></div>
+					<div class="col "><a href="index.html"> <button class="btn btn-back bg-danger text-white">Back</button></a></div>
+				</div>
+				</div>
+		</div>
+
+<div class="container-fluid " >
+	<div class="container">
+	<div class="row  ">
+	<div class="col1" id="e"><img src="images/e1.jpg" width="100%"></div>
+	<div class="col1" id="e"><img src="images/e2.jpg" width="100%"></div>
+	<div class="col1" id="e"><img src="images/e3.jpg" width="100%"></div>
+	<div class="col1" id="e"><img src="images/e6.jpg" width="100%"></div>
+	</div>
+	</div>	
+</div>
+
+	<div class="container-fluid " style="background:lightblue" >
+			<div class="container">
+				<h2 class="text-primary my-4">Education</h2><hr>
+			<div class="row ">
+			<div class="col2" id="t1">
+					<ul >
+							<li><span style="color:rgb(212, 158, 8); font-style: bold;">E</span>&nbsp - &nbsp Enlargement of Mind</li>
+							<li><span style="color:rgb(212, 158, 8); font-style: bold;">D</span>&nbsp - &nbsp <span style="color:red">DESMEP<span></li>
+							<li><span style="color:rgb(212, 158, 8); font-style: bold;">U</span>&nbsp - &nbsp Universal Outlook</li>
+							<li><span style="color:rgb(212, 158, 8); font-style: bold;">C</span>&nbsp - &nbsp Character</li>
+							<li><span style="color:rgb(212, 158, 8); font-style: bold;">A</span>&nbsp - &nbsp Active Habits</li>
+							<li><span style="color:rgb(212, 158, 8); font-style: bold;">T</span>&nbsp - &nbsp Trustworthiness</li>
+							<li><span style="color:rgb(212, 158, 8); font-style: bold;">I</span>&nbsp &nbsp - &nbsp Ideation of the Great</li>
+							<li><span style="color:rgb(212, 158, 8); font-style: bold;">O</span>&nbsp - &nbsp Omniscient Grace</li>
+							<li><span style="color:rgb(212, 158, 8); font-style: bold;">N</span>&nbsp - &nbsp Nice Temperament	
+							</ul>	
+				
+			</div>
+			<div class="col2 " id="t2">
+					<ul >
+	
+							<li><span style="color:red">D</span>&nbsp - &nbsp Discipline</li>
+							<li><span style="color:red">E</span>&nbsp - &nbsp Etiquett</li>
+							<li><span style="color:red">S</span>&nbsp - &nbsp Smartness</li>
+							<li><span style="color:red">M</span>&nbsp - &nbsp Morality</li>
+							<li><span style="color:red">E</span>&nbsp - &nbsp English</li>
+							<li><span style="color:red">P</span>&nbsp - &nbsp Pronounciation</li>
+							</ul>
+			</div>
+			<div class="col2" id="t3">
+					<p >Educated are those who have learned much, remembred much, and made use of thier knowledge in practical life. These vitues I call "education". For such an education, mere knowledge of alphabet is not very essential. It should, however, be accepted that literacy is extremely useful in recollecting what one has already learned.</p>
+					<p class="text-center"><strong>Shrii Shrii A'nandamu'rti jii</strong></p>
+					
+			</div>			
+			</div>
+			</div>	
+		</div>
+
+		<div class="container-fluid">
+			<div class="container">
+					<h2 class="text-primary text-center mt-2">Mediums(Methods) of Education </h2>
+					<p>Through education a thirst for knowledge must be awakened, and, to quench that thirst, proper education must be given. Only then will education be worthwhile and develop the body, mind and ideals of the student. Diffrerent stages  need different mediums of education.</p> <hr>
+					
+				<div class="row ">
+					<div class="col3">
+						<h6 class="text-danger">Playway medium and stories for children</h6>
+						<p>Children are by nature most inclined towards play, so a thirst for knowledge will have to be awakened in children through the medium of play – children should be educated through play methods. Children are also by nature inclined to listen to fantasies and stories. Through stories children can easily be taught the history and geography of various countries, and they may also be taught the initial lessons of how to practice universalism in their lives. Children love play and stories almost equally, so in their case the two should be equally utilized.</p>		
+					</div>
+					<div class="col3">
+							<h6 class="text-danger">Medium of idealism for adolescents</h6>
+							<p>The dream of the future first crystallizes in the mind of the adolescent. So adolescents should be taught, without indulging in narrow-mindedness, through the medium of idealism.</p>		
+						</div>
+					<div class="col3">
+							<h6 class="text-danger">Medium of a harmonious blend of idealism and realism for young adults</h6>
+							<p>The minds of young adults are, however, somewhat inclined towards realism, so in their case pure idealism will not suffice. In order to educate such young adults, a harmonious blend of idealism and realism is required.</p>		
+						</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid" style="background: lightgray;">
+			
+				<div class="row">
+					<div class="col4">
+						<div class="nhe"><h1 style="padding:10px">NHE</h1></div>
+						<h6 style="color:blue">Neo-Humanist Education is about...</h6>
+					</div>
+					<div class="col5">
+						<div class="nhe-text">
+							<h5 class="mb-3 text-left">Neo-Humanist Education is about...</h5>
+							<button class="accordion is-open">Expanding Awareness</button>
+							<div class="accordion-content">
+							<p >NHE is about expanding our awareness in order to free us from ill health and a stressful life; and moving towards a blissful life through a sentient life -style. It is more about reflecting upon our attitudes, living habbits and worldview than striving towards mere political and economic power grabbing. This training needstostart with young children and be cultivated throughout life.</p>
+							</div>
+						
+							<button class="accordion is-open">Enlightened leadership</button>
+							<div class="accordion-content">
+							<p>NHE is about creation of an enlightened leadership; liberation of human intellect and freedom from dogmas.It is about exposing the dogmas of science, rigidities of social systems and irrational worldviews.</p>
+							</div>
+						
+							<button class="accordion is-open">Self reliance</button>
+							<div class="accordion-content">
+							<p>NHE is about replacing local vulnerabilities with greater resilience in all walks of life. The discourse of PROUT-based education enhances the economic power of local communities and promotes regional self-reliance. </p>
+							</div>
+							<button class="accordion is-open">Good and happiness of all</button>
+							<div class="accordion-content">
+								<p>
+										NHE is about a journey from scarcity to abundance for one and all, including other species. It involves alignment with nature, using green technologiies and finding creative solutions that utilize existing resources in optimum ways for the good and happiness of all.
+									
+								</p>
+							</div>
+							<button class="accordion is-open">Tackling the challenges of social injustices</button>
+							<div class="accordion-content">
+								<p>NHE is about tackling the challenge of historical social injustices, recognizing and eliminating wide disparities in all walks of life, and urgently moving towards minimizing ineqalities especially in economic affairs. Diversity is healthy but disparities increase social tentions and  affect the optimum utilization of human potentials and the collective wealth of humanity. 
+									
+								</p>
+							</div>
+
+					</div>
+				</div>
+				</div>
+			
+		</div>
+
+<script >
+	var accordions =
+	document.getElementsByClassName("accordion");
+
+	for(var i=0; i<accordions.length; i++){
+		accordions[i].onclick = function(){
+			this.classList.toggle('is-open');
+			var content = this.nextElementSibling;
+
+			if(content.style.maxHeight){
+				content.style.maxHeight = null;
+				}
+				else{
+					content.style.maxHeight = content.scrollHeight + "px";
+	 }
+	 }
+	 }
+</script>
+
+</body>
+</html>

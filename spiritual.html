@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Neo-Humanist Education</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">  
+  <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Candal&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="head.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+	
+	.wrapper{
+		margin-top: 20px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto auto;
+		grid-gap: 20px;
+		grid-template-areas: "terms quote"
+		"terms links"		
+		;
+	}
+	.item{
+		padding: 20px 20px;
+	}
+	#one{
+		grid-area: terms;		
+	}
+	#two{
+		grid-area: quote;
+		background: lightblue;
+		
+	}
+	#three{
+		grid-area: links;
+				
+	}
+	/* acordian */
+		button.accordion{   
+			width: 100%;
+			background-color: whitesmoke;
+			border: none;
+			outline: none;
+			padding: 15px 20px;
+			font-size: 18px;
+			text-align: left;
+			transition: background-color 0.2s linear;
+			cursor: pointer;
+			margin-top: 3px;		
+		}
+		
+		button.accordion:hover, button.accordion.is-open{ 			
+			background-color: #ddd;				
+		}
+
+		button.accordion::after{ 			
+			content:'\f055';
+			font-family: "fontawesome";
+			font-size: 16px;
+			float: right;				
+		}
+
+		button.accordion.is-open::after{ 			
+			content:'\f056';
+			font-family: "fontawesome";
+			font-size: 16px;
+			float: right;				
+		}
+
+		.accordion-content{ 			
+			padding: 0px 20px;
+			border-right: 1px solid whitesmoke;	
+			border-left: 1px solid whitesmoke;
+			max-height: 0;
+			overflow: hidden;
+			transition: max-height 0.2s ease-in-out;			
+		}				
+	@media(max-width: 640px){
+		.wrapper{
+			display:grid;
+			grid-template-columns:1fr ;
+			grid-template-areas:"terms"
+			"quote"
+			"links";
+		}
+	}
+</style>
+  
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script
+	src="https://code.jquery.com/jquery-3.4.1.js"
+	integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+	crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+		<div class="container-fluid bg-info">
+				<div class="container">
+					<div class="row-head d-flex">
+					<div class="col "><h5 class="text-danger text-logo">NEO<span class="text-white">HUMANISM</span></h5></div>
+					<div class="col "><a href="index.html"> <button class="btn btn-back bg-danger text-white">Back</button></a></div>
+				</div>
+				</div>
+		</div>
+		<div class="container-fluid main">			
+			<div class="container">
+				<div class="wrapper">
+					<div class="item" id="one">
+						<p style="background: lightblue; padding: 8px 12px; border-radius: 10px;">IN ANANDA MARGA PERSPECTIVE</p>
+							<h5>Spiritual Terms </h5>
+							<button class="accordion is-open">Dharma</button>
+							<div class="accordion-content">
+							<p >Dharma is a natural propensity, an inherent characteristic. It refers to a particular spiritual way of life. Each and every object in this universe has its own innate characteristic, or svabháva (Sva means “own” and bháva means “propensity”).<br>For example, the innate characteristic of fire is to burn whatever it meets. So the dharma of fire is to burn. Similarly the dharma of water is to wet.</p>
+							</div>
+						
+							<button class="accordion is-open">Bha'gavata Dharma</button>
+							<div class="accordion-content">
+							<p >The word “bhágavata” means “pertaining to divinity” and dharma means “inherent characteristic”, so Bhágavata dharma means “the way of life which leads to ensconcement in the supreme stance”. The innate characteristic of human beings is to practise spirituality.</p>	
+						<p>“Bhágavata dharma” is used to describe the higher tendencies. Bhágavata dharma refers to the innate tendency which leads human beings towards the Supreme Entity, which arouses in them a spontaneous love and attraction for the Supreme Entity. <br><br>
+							In fact, in each and every human being there is love and attraction for the Supreme Entity. The human being who does not feel this attraction hardly deserves to be called a human being. Such a being is no better than a sub-human, although in human form.
+							It is bhágavata dharma that clearly distinguishes human beings from animals. Even a thief who feels love for the Supreme Entity in the core of his heart, merits being called a human being. But a so-called virtuous person or a man of knowledge who feels no love for the Supreme Entity should not be considered a human being, because in such a person human dharma is wanting. 
+							</p>	
+						</div>
+						
+							<button class="accordion is-open">Tantra</button>
+							<div class="accordion-content">
+									<p >Etimologically, Tantra is derived as<i>Tan+trae+da.</i><br>
+										The letter 'Ta' is the seed sound of dullness(ststicity) and 'Tra' means "that which liberates"<br>			
+										<span style="color:blue; opacity:.5; font-size:16px">So Tantra is that which liberates a person from the bondages of staticity</span></br> <br>
+										 The spiritual practice which liberates the aspirant from the dullness or animality of the static force and expands the aspirant’s self is Tantra sádhaná. There cannot be any spiritual practice without Tantra. Tantra is sádhaná.<br><br>
+										 The main characteristic of Tantra is that it represents human vigour. It represents a pactless fight. Where there is no fight there is no sádhaná. Under such circumstances Tantra cannot be there, where there is no sádhaná, no fight. It is an impossibility to conquer a crude idea and to replace it by a subtle idea without a fight. It is not at all possible without sádhaná. Hence, Tantra is not only a fight, it is an all-round fight. It is not only an external or internal fight, it is simultaneously both. The internal fight is a practice of the subtler portion of Tantra. The external fight is a fight of the cruder portion of Tantra. And the fight both external and internal is a fight in both ways at once.			
+										</p>	
+							</div>
+							<button class="accordion is-open">Meaning of word Yoga</button>
+							<div class="accordion-content">
+									<p >The word “Yoga” is derived from the root verb “Yuj” and suffix “Ghaiṋ”. <br>In Saḿskrta there are two similar root-verbs – one “Yuj” and another: “Yunj”. “Yuj” means to unite, “Yunj” means to unify.<br> <br>Arithmetical addition, mixing sugar with sand is unity.<br> But the mixture of sugar with water is unification.<br> Where there is unification, both the entities merge into one and they cannot be separated.		
+									</p>	
+							</div>
+							<button class="accordion is-open">Yoga according to Tantra</button>
+							<div class="accordion-content">
+							<p >Tantra defines Yoga as <br>“Saḿyoga Yoga Ityukto Jiivátmá Paramátmanah”. <br><span style="color:yellow; opacity:.5; font-size:16px">The unification of Jiivátman with Paramátman is termed Yoga.</span><br> <br>For example, the moon in the sky is like Paramátman and its reflection in the pond is Jiivátman. When the moon in the sky reaches the moon in the pond then there is oneness between the two. The reflection of Paramátman on unit mind is Jiivátman. When the mind reaches Paramátman both Jiivátman and Paramátman become one. This is the explanation of Yoga according to Tantra.		
+							</p>	
+							</div>
+							<button class="accordion is-open">Devotion and Love</button>
+							<div class="accordion-content">
+									<p >Devotion means working in the service of the Supreme according to His satisfaction. Love is the expressed form of devotion. On the seed of devotion love sprouts. Love gives rise the ideation for Parama Purus’a in one’s mind.</p>
+				
+							</div>
+							<button class="accordion is-open">Aesthetic Science (Nandan Vijina'na)</button>
+							<div class="accordion-content">
+									<p >The sport (Liila’) of Parama Purus’a is very beautiful. The stage, a spiritual aspirant goes on moving towards Him without taking mind of obstructions, is the stage of aesthetic science.<br>
+										In this stage human beings start to think in more subtle ways. So their external expressions become more subtle and more beautiful. They want to see beauty, not ugliness or bitterness in their surroundings, in mundane objects of their daily world.</p>
+											
+							</div>
+							<button class="accordion is-open">Supra-aesthetic Science (Ati-Nandan Vijina'na)</button>
+							<div class="accordion-content">
+									<p>The stage of merger, when we have lost ourselves in the Supreme, when we have no desire for anything else, is the stage of supra-aesthetic science.</p>
+				
+							</div>
+							<button class="accordion is-open">Cult</button>
+							<div class="accordion-content">
+									<p> The path that leads or goads the aspirant unto Param Purus’a is called cult.<br>Spiritual practice is based on cult.<br><br>
+										Where the goal is something finite, where the pebulum is something limited , the path and movement cannot be treated as cult.</p>
+											
+							</div>
+							<button class="accordion is-open">Occult Power</button>
+							<div class="accordion-content">
+									<p > If the cult is proper (in the true spirit of the term), it creates a sort of subtlety in one’s mental flow. Under such circumstances, the spiritual aspirant receives necessary help from positive microvita. This help that we receive by dint of our spiritual practices is composed of eight occult powers. These powers are called occult because they are acquired through cult.<br><br>
+			
+										Occult Powers are:<br>
+										
+										<b>AN’IMA’:</b><br>This converts one’s mind into a small point and then transforms it into a minimum entity.
+										With the help of this one may enter into any physical body.<br><br>
+										
+										<b>LAGHIMA’:</b><br>
+										This makes the mind light , free from the bondages of so many liabilities.
+										With the help of this one may understand any idea, subtle or crude, in the abstruct ream.<br><br>
+										
+										<b>MAHIMA’:</b>
+										This expands one’s mind.<br><br>
+										
+										<b>IISHITVA:</b><br>
+										This enables the spiritual aspirant to guide other minds who suffer from different psychic ailments.<br><br>
+										
+										<b>VASHVITVA:</b><br>
+										This helps a person to bring defective ideas or people goaded by defective ideas unto the path 
+										of Supreme greatness.<br><br>>
+										
+										<b>PRAKA’MYA:</b><br>
+										This means right mode of thinking aimed at promoting universal welfare, brings light to the entire
+										universe.<br><br>
+										
+										<b>PRA’PTI:</b><br>
+										This helps oneself to acquire and be benefitted by the grace of the Supreme and so helps the 
+										souls of so many people for the same. <br><br>
+										
+										<b>ANTARYA’MITVA:</b><br>
+										This enables a person to enter within the ectoplasmic or endoplasmic structures of others and 
+										thereby to know the pains and pleasures, the hopes, aspirations and longings of others to guide
+										them properly. </p>	
+							</div>
+							<button class="accordion is-open">Subjective approach through objective adjustment</button>
+							<div class="accordion-content">
+									<p>Human beings reach the culmination of devotion by subjective approach through objective adjustment. Devotion develops through various psychic expressions.<br> There should be balance between the introversial aspect (the subjective approach) and the extroversial aspect (the objective adjustment).<br>
+										The inner psychic movement of human beings, their existential awareness, is completely rhythmic. A portion of whatever happens in the outer world, in outer existence, is adjusted with the inner psychic rhythm. When the happenings in the outer world are not adjusted with the inner psychic rhythm, one feels some distress.  When the rhythm of ones movement in the external world, the rhythm of ones lifestyle, conforms to ones inner psychic rhythm, one feel comfortable. But when these rhythms do not correspond, one feel uncomfortable. For progress in the external world there should be clear guidelines, a clear and well-integrated philosophical base. The society often lacks this; and that is why people tend to lose balance in social life. When those who have developed intellectually come in contact with an uncongenial environment, they find it difficult to adjust.</p>
+											
+							</div>
+							
+					</div>
+					<div class="item p-5" id="two">
+							<p >Ours should be a proper adjustment, and for that adjustment there is no alternative but to follow the lofty and subtle principles of Neohumanism. This Neohumanism of ours, this Neohumanistic approach of ours, is the result of a never-ending effort through our rationalistic approach, our spiritual cult and our spiritual mission. That is, we apply this Neo-Humanistic ideology in the realm of the physical world, the physico-psychic world, and the psycho-physical world, with all the charms and glamours of our mind, and all the charms and glamours of our sweet human heart.</p>
+							<p class="text-center">Shrii Shrii A'anandamu'rti jii</p>
+					</div>
+					<div class="item" id="three">
+							<a href="progress.html" target="_blank"><h6><span> <i class="fas fa-angle-double-right"></i></span>&nbsp;  Civilization, Science and Spiritual Progrss</h6></a>
+							<a href="home.html" target="_blank"><h6><span> <i class="fas fa-angle-double-right"></i></span>&nbsp;  Returning Home</h6></a>
+							<a href="devotion.html" target="_blank"><h6><span> <i class="fas fa-angle-double-right"></i></span>&nbsp;  Devotion</h6></a>
+							<a href="sadhana.html" target="_blank"><h6><span> <i class="fas fa-angle-double-right"></i></span>&nbsp;  Spiritual Sa'dhana'</h6></a>
+							<a href="images/PRAMA'.pdf" target="_blank"><h6><span> <i class="fas fa-angle-double-right"></i></span>&nbsp;  PRAMA'</h6></a>
+							
+						</div>
+				</div>
+			</div>
+		</div>
+
+</body>
+<script >
+		var accordions =
+		document.getElementsByClassName("accordion");
+	
+		for(var i=0; i<accordions.length; i++){
+			accordions[i].onclick = function(){
+				this.classList.toggle('is-open');
+				var content = this.nextElementSibling;
+	
+				if(content.style.maxHeight){
+					content.style.maxHeight = null;
+					}
+					else{
+						content.style.maxHeight = content.scrollHeight + "px";
+		 }
+		 }
+		 }
+	</script>
+</html>

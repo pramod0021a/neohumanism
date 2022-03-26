@@ -1,0 +1,30 @@
+body{
+    background-color: #f6f6f6;
+    margin: 0px;
+    padding:0px;
+    font-size: 16px;
+font-weight: 400; 
+font-family: 'Lora', serif; 
+text-align: justify;  
+
+}
+h1, h2, h3, h4, h5, h6{
+font-family: 'Candal', sans-serif;
+}
+.row-head{
+    display: flex;
+    padding: 5px 0px;
+    align-items: center;
+        }
+.btn-back{		
+    padding: .3rem 1.3rem;
+    float: right;
+}
+@media (max-width: 639px) {
+	h1, h2, h3{
+		font-size: 1.3rem;
+    }
+    .am{
+        min-width:70%;
+    }
+}

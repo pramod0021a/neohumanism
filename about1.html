@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Test Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">  
+  <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Candal&display=swap" rel="stylesheet">
+<style>
+    *{
+        box-sizing:border-box;
+        padding:0;
+        margin:0;
+    }    
+    body, html{
+      height: 100%;
+		background-color: #f6f6f6;		
+	}
+	.btn-back{		
+		padding: .5rem 1.3rem;
+	}
+  .wrapper{
+        display: grid;        
+        width: 100%;  
+         
+       
+
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas: "logo back"
+        "slider slider"
+        "features quote";        
+    }
+.item{
+    padding:20px 100px;        
+}
+#one{
+        grid-area: logo;                
+             
+  }
+  #two{
+      grid-area: back;  
+      text-align: right;    
+  }
+  #three{
+      grid-area: slider;  
+      margin:0px;
+      padding:0px;
+               
+  }
+  #four{
+      grid-area: features;                      
+  }
+  
+  #five{
+      grid-area: quote;
+      background:rgba(94, 134, 185, 0.746);
+      
+  }
+
+  @media screen and (max-width:640px) and (min-width: 300px) {
+    .wrapper{
+            display: grid;
+            grid-template-columns:1fr 1fr;            
+            grid-template-areas:"logo back"
+            "slider slider"
+            "features features"            
+            "quote quote";
+        }
+    
+  }
+	
+</style>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>  
+  
+
+<body>
+    <div class="wrapper">
+        <div class="item bg-info" id="one"><h5 class="text-danger text-logo">NEO<span class="text-white">HUMANISM</span></h5></div>
+        <div class="item bg-info" id="two">
+            <a href="index.html"> <button class="btn btn-back bg-danger text-white">Back</button></a>
+        </div>
+        <div class="item " id="three">
+
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                              <img src="images/s1.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/s2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/s3.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                                <img src="images/s4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        </div>
+                      </div>            
+        </div>
+        <div class="item " id="four">
+                <h1 style="text-align:center">About Neo-Humanism</h1>
+                <p style="font-size:18px"> Shrii Prabhat Ranjan Sarkar, also known as Shrii Shrii A'nandamu'rtijii, is the father of Neo-humanist movement. He presented neo-humanism as an alternative paradigm in 1982 for the 'liberation of human intellect'.</p><br>
+                <p style="font-size:18px">Neo-humanism is the fundamental postulate that each and every object of this cosmos is bound together by mutual attraction. There is a mutual relationship  between a large star, a planet, a satellite, a small meteor or even a stone. A natural balance is maintained in both the animate and inanimate worlds due to this mutual attraction. All existence is equally valuable, and therefore only those ideas, philosophies and theories which imbibe and express universal love for all of creation can foster the path of evolution. Not only fellow citizens or fellow humans deserve our concern, but each and every particle of creation demands equal love and respect. </p><br>
+
+                <h2>Features of Neo-humanism</h2>
+                (1)&nbsp Neo-humanism affirms the notion that the Supreme Cognative Faculty is present not only in matter or supra-matter but even in inter-ectoplasmic space. There is nothing outside the scope of  Supreme Cognition. Thus Neo-humanism reaffirms the relation of cosmic fraternity with each and every living or so called non-living manifestations of this Cosmic society.<br><br>
+
+	(2)&nbsp Neo-humanism asserts that 'Existence is an ideological flow of movement from imperfection towards perfection'.<br><br>
+
+	(3)&nbsp Neo-humanism advocates the neccesity of maintaining perfect harmony between subjectivity and objectivity, between the inner and outer world. <br><br>
+
+	(4)&nbsp Neo-humanism challenges dogma and superstitions, paving the way for a speedy change towards a glorious future. </p><br><br>
+	
+        </div>
+        <div class="item " id="five">quote</div>        
+    </div>
+
+<!-- <div class="container-fluid bg-info">
+		<div class="container">
+			<div class="row ">
+			<div class="col-sm-6 "><h5 class="text-danger text-logo">NEO<span class="text-white">HUMANISM</span></h5></div>
+			<div class="col-sm-6 p-2"><a href="index.html"> <button class="btn btn-back bg-danger text-white">Back</button></a></div>
+		</div>
+		</div>
+</div>
+
+<div class="container-fluid m-0 p-0" >
+    <div class="slider" id="p1">
+        <img src="images/s1.jpg" width="100%">
+        <img src="images/s2.jpg" width="100%">
+        <img src="images/s3.jpg" width="100%">
+        <img src="images/s4.jpg" width="100%">
+    </div>
+
+<div class="container">rrrrrrrr</div>
+</div> -->
+</body>
+
+</html>
